@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:paddingBottom="10dp"
+    android:paddingTop="15dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/mainRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/first"
+            android:visibility="visible"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/nameTV"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Ashish Rawat"
+            android:layout_marginLeft="12dp"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+</RelativeLayout>
